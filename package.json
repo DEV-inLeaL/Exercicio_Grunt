@@ -1,0 +1,21 @@
+{
+  "name": "jquery_exercicio-main",
+  "version": "1.0.0",
+  "description": "- O carousel slick utiliza a ID do campo para atribuir funções. - A semântica de escrita do HTML e jQuery utilizam o idioma inglês. - O jQuery plugin só executa depois que o jQuery carregar na página.",
+  "main": "index.js",
+  "scripts": {
+    "grunt": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-replace": "^2.0.2",
+    "htmlmin": "^0.0.7",
+    "less": "^4.4.1"
+  }
+}
