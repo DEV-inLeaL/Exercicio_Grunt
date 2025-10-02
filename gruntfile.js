@@ -48,7 +48,7 @@ module.exports = function(grunt) {
                         },
                         {
                             match: 'endereco_do_js',
-                            replacement: '../dist//main.min.js'
+                            replacement: '../dist/main.min.js'
                         }
                     ]
                 },
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
                         expand: true,
                         flatten: true,
                         src: ['./prebuild/index.html'],
-                        dest: './produc'
+                        dest: 'produc'
                     }
                 ]
             }
